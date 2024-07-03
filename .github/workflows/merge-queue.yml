@@ -1,6 +1,7 @@
 name: Sleep for 5 minutes
 
 on:
+  pull_request:
   merge_group:
 
 jobs:
