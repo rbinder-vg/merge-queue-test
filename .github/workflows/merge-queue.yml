@@ -3,7 +3,7 @@ name: Sleep for 5 minutes
 on:
   push:
     branches:
-      - gh-readonly-queue/*
+      - gh-readonly-queue/**
 
 jobs:
   validate-pr:
