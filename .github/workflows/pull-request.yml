@@ -12,7 +12,7 @@ jobs:
     - name: Display info
       run: | 
         pwd
-        tree -a -I '.git'
+        ls -al
         git status
     - name: Sleep for 5 seconds
       run: sleep 5
