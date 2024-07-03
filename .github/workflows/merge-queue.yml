@@ -1,7 +1,6 @@
 name: Sleep for 5 minutes
 
 on:
-  pull_request:
   push:
     branches:
       - gh-readonly-queue/*
