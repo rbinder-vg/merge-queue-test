@@ -3,6 +3,7 @@ name: Sleep for 5 minutes
 on:
   pull_request:
   merge_group:
+  push:
 
 jobs:
   validate-pr:
@@ -15,5 +16,5 @@ jobs:
         pwd
         ls -al
         git status
-    - name: Sleep for 5 minutes
-      run: sleep 300
+    - name: Sleep for 1 minutes
+      run: sleep 60
